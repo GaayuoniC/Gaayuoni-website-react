@@ -9,3 +9,6 @@ h1 {
   list-style-type: none;
   font-size: 1em;
 }
+header {
+  background-color: var(--headerFooterBackground-color);
+}

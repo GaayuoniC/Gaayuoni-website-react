@@ -7,3 +7,6 @@
 a {
   text-decoration: none;
 }
+footer {
+  background-color: var(--headerFooterBackground-color);
+}
