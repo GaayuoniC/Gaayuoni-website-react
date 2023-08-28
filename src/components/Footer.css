@@ -1,0 +1,9 @@
+.footer-li {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
