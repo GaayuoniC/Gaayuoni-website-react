@@ -13,4 +13,14 @@ header {
   background-color: var(--headerFooterBackground-color);
   border-radius: var(--border-radius);
   border: var(--border-line);
+  position: relative;
+}
+img {
+  position: absolute;
+  right: 4em;
+  top: 0.0;
+  width: 214px;
+  height: 320px;
+  border-radius: var(--border-radius);
+  border: var(--border-line);
 }

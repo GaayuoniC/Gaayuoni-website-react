@@ -19,6 +19,7 @@ export function Header() {
           </li>
         </ol>
       </nav>
+      <img src={"Chris.jpeg"} alt="A picture of a man called Christian" />
     </header>
   );
 }
