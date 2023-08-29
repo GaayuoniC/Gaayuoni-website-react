@@ -9,4 +9,6 @@ a {
 }
 footer {
   background-color: var(--headerFooterBackground-color);
+  border-radius: var(--border-radius);
+  border: var(--border-line);
 }

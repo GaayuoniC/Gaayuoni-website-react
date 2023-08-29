@@ -11,4 +11,6 @@ h1 {
 }
 header {
   background-color: var(--headerFooterBackground-color);
+  border-radius: var(--border-radius);
+  border: var(--border-line);
 }

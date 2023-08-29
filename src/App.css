@@ -1,6 +1,7 @@
 :root {
   --headerFooterBackground-color: #ecebe9;
-  --border-radius: 1px solid black;
+  --border-radius: 8px;
+  --border-line: 1px solid black;
 }
 
 #root {
