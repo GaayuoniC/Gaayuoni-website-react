@@ -5,6 +5,7 @@ h1 {
 .nav-ol {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 100px;
   list-style-type: none;
   font-size: 1em;
@@ -17,10 +18,19 @@ header {
 }
 img {
   position: absolute;
-  right: 4em;
-  top: 0.0;
-  width: 214px;
-  height: 320px;
+  right: 0em;
+  top: 0;
+  width: 120px;
+  height: 150px;
   border-radius: var(--border-radius);
   border: var(--border-line);
+}
+
+@media screen and (min-width: 480px) {
+  .nav-ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
 }
