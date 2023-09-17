@@ -1,7 +1,7 @@
 export function HomePage() {
   return (
     <div>
-      <h2> Welcome to my webpage</h2>
+     
       <article>
         <p>
           <strong> Lorem ipsum dolor sit,</strong> amet consectetur adipisicing
