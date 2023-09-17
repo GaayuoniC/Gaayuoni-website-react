@@ -1,4 +1,4 @@
-export function MainText() {
+export function HomePage() {
   return (
     <div>
       <h2> Welcome to my webpage</h2>
