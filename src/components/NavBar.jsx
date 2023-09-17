@@ -5,22 +5,19 @@ export function NavBar() {
     <header>
       <nav>
         <div className="menu">
-          <NavLink to="/home">
+          <NavLink to="/homepage">
             <li> Home</li>
           </NavLink>
-          <NavLink to="/home">
+          <NavLink to="/aboutme">
             <li> About me</li>
           </NavLink>
-          <NavLink to="/home">
+          <NavLink to="/cv">
             <li> CV</li>
           </NavLink>
-          <NavLink to="/home">
+          <NavLink to="/contact">
             <li> Contact</li>
           </NavLink>
-          
- 
         </div>
-       
       </nav>
     </header>
   );
