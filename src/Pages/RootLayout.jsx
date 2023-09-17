@@ -9,7 +9,7 @@ export function RootLayout() {
         <NavBar />
         <main>
           <div className="welcome">
-            <h1>Welcome to my personal page</h1>
+            <h1>I welcome you !</h1>
             <figure>
               <img
                 src={"Chris.jpeg"}

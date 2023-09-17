@@ -4,9 +4,9 @@ export function AboutMe() {
       <h1>Who am I?</h1>
       <section>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quia
-          animi praesentium dolor. Deleniti rem quod adipisci perferendis, quam
-          ratione.
+          Born in Cape Coast, a city along the coast of Ghana in West Africa.
+          The first child of five siblings. Raised in Tamale in the northern
+          region of Ghana. Father was a teacher and mother was a nurse.
         </p>
       </section>
     </>

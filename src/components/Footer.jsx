@@ -1,12 +1,13 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 export function Footer() {
   return (
     <footer>
       <ol className="footer-li">
         <li>Copyright: Christian Gaayuoni</li>
-        <li>
-          My personal <a href="http://">Linkedin</a>
-        </li>
+        <Link to="https://www.linkedin.com/in/christian-gaayuoni-5950b132/">
+          <li>My personal Linkedin</li>
+        </Link>
       </ol>
     </footer>
   );
