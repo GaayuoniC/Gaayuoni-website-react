@@ -5,12 +5,13 @@ img {
   top: 4.2em;
   width: 120px;
   height: 150px;
-  border-radius: var(--border-radius);
-  border: var(--border-line);
+  /* border-radius: var(--border-radius); */
+  /* border: var(--border-line); */
 }
 nav{
   background-color: #E872AD;
   display: flex;
+  border-radius: var(--border-radius);
 }
 .menu{
   display: flex;
@@ -23,6 +24,7 @@ list-style-type:none;
  justify-content: space-between;
  flex-wrap: wrap;
  font-size: 20px;
+ flex-grow: 1;
 
 
 }

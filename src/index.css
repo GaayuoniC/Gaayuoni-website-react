@@ -4,6 +4,8 @@
   font-weight: 400;
   padding: 30px;
   margin: 30px;
+  --border-radius:10px ;
+  --border-line: 1px solid black;
 }
 
 /* color-scheme: light dark;
