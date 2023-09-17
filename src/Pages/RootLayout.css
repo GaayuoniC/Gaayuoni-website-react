@@ -1,0 +1,16 @@
+.welcome{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: blue;
+    justify-content: space-between;
+
+}
+ img{
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+   top: -1em;
+    right: 2em;
+    border-radius: 50%;
+}

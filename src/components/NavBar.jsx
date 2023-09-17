@@ -17,8 +17,10 @@ export function NavBar() {
           <NavLink to="/home">
             <li> Contact</li>
           </NavLink>
-          <img src={"Chris.jpeg"} alt="A picture of a man called Christian" />
+          
+ 
         </div>
+       
       </nav>
     </header>
   );
