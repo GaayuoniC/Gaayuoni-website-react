@@ -1,14 +1,15 @@
-.footer-li {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
 footer {
   background-color: var(--headerFooterBackground-color);
   border-radius: var(--border-radius);
   border: var(--border-line);
+  display: flex;
+}
+.footer-li {
+  display: flex;
+  /* gap: 70vw; */
+  list-style-type: none;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
 }
