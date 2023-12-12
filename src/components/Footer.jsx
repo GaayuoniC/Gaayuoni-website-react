@@ -6,7 +6,7 @@ export function Footer() {
       <ol className="footer-li">
         <li>Copyright: Christian Gaayuoni</li>
         <Link to="https://www.linkedin.com/in/christian-gaayuoni-5950b132/">
-          <li>My personal Linkedin</li>
+          <li> Linkedin</li>
         </Link>
       </ol>
     </footer>
