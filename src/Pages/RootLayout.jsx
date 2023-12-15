@@ -10,12 +10,7 @@ export function RootLayout() {
         <main>
           <div className="welcome">
             <h1>I welcome you !</h1>
-            <figure>
-              <img
-                src={"Chris.jpeg"}
-                alt="A picture of a man called Christian"
-              />
-            </figure>
+            
           </div>
 
           <Outlet />
