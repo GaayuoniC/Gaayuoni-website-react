@@ -1,16 +1,7 @@
-.welcome{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    /* background-color: blue; */
-    justify-content: space-between;
-
-}
- img{
-    display: flex;
-    position: relative;
-    border: var(--border-line);
-   top: -1em;
-    right: 2em;
-    border-radius: 50%;
+.welcome {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* background-color: blue; */
+  justify-content: space-between;
 }
