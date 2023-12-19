@@ -26,6 +26,7 @@ export function HomePage() {
           <strong>Taktsoft Campust Talents </strong>  in Bonn,Germany.
          
         </p>
+        <p>Work in progress</p>
 
 
       </article>
