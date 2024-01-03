@@ -3,12 +3,7 @@ import "./HomePage.css"
 export function HomePage() {
   return (
     <div>
-      <figure>
-              <img
-                src={"Chris.jpeg"}
-                alt="A picture of a man called Christian"
-              />
-            </figure>
+     
      
       <article>
         <p>

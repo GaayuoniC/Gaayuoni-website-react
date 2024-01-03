@@ -5,18 +5,17 @@ import "../Pages/RootLayout.css";
 export function RootLayout() {
   return (
     <>
-      <div className="nav-container-1">
         <NavBar />
         <main>
-          <div className="welcome">
-            <h1>I welcome you !</h1>
+        
             
-          </div>
+            
+          
 
           <Outlet />
         </main>
       {/*   <Footer /> */}
-      </div>
+      
     </>
   );
 }
