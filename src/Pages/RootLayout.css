@@ -1,8 +1,7 @@
-.welcome {
+/* .welcome {
   display: flex;
   flex-direction: row;
   position: relative;
-  /* background-color: blue; */
   justify-content: space-between;
 }
 main {
@@ -13,4 +12,4 @@ main {
 }
 .nav-container-1 {
   flex: 1;
-}
+} */
