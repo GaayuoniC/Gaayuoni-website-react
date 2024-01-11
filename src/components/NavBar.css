@@ -29,9 +29,10 @@
 }
 .header-nav-container li {
   color: white;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   padding-left: 10px;
+  font-weight: 500;
 }
-.header-nav-container li :hover {
+.header-nav-container li:hover {
   opacity: 0.7;
 }
