@@ -255,7 +255,7 @@ console.log(totalOfAllProducts(products));
 //basic fizzBuzz function
 
 function fizzBuzzer(n) {
-  for (let i = 0; i <= n; i++) {
+  for (let i = 1; i <= n; i++) {
     //the i must be less than or equal to the params in the main function ie 'n'
     if (i % 3 === 0 && i % 5 === 0) {
       console.log(i + " FizzBuzz");
@@ -268,7 +268,7 @@ function fizzBuzzer(n) {
     }
   }
 }
-console.log(fizzBuzzer(5));
+console.log(fizzBuzzer(15));
 
 //using the quick sort method as against the standard bubble sort
 
@@ -314,3 +314,24 @@ function fastSort(num) {
   return fastSort(left).concat(pivot, fastSort(right));
 }
 console.log(fastSort(attak));
+
+console.log(numbers.sort((a, b) => b - a));
+
+//Bubblesort function
+//Now I fully understand the logic in bubble sort and quick sort as well!!
+function bubbleSort1(arr) {
+  const len = arr.length;
+
+  for (let i = 0; i < len; i++) {
+    for (let j = 0; j < len - 1 - i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+      }
+    }
+  }
+  return arr;
+}
+const list = [63, 24, 5, 7, 11, 90, 0, 5];
+
+const sortedList = bubbleSort1(list);
+console.log(sortedList);
