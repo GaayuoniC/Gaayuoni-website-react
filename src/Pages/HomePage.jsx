@@ -22,9 +22,13 @@ export function HomePage() {
           <p>
             This is just the beginning of the development of my own website
             which I started developing right from the first day that I started
-            my
-            <strong> Frontend Web and App </strong> developement Bootcamp with
-            <strong>Taktsoft Campust Talents </strong> in Bonn,Germany.
+            my<strong> Frontend Web and App </strong> developement Bootcamp with{" "}
+            <strong>
+              <a href="https://talents.taktsoft.com/" target="_blank">
+                Taktsoft Campust Talents {""}
+              </a>
+            </strong>
+            in Bonn,Germany.
           </p>
           <p>Work in progress</p>
         </article>

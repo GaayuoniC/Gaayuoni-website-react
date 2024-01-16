@@ -125,7 +125,7 @@
 
 // bubble sort function
 
-const numbers = [300, 200, 43, 1, 6, 450, 0, -2];
+const numbers5 = [300, 200, 43, 1, 6, 450, 0, -2];
 
 function bubbleSort(numbers) {
   for (let i = 0; i < numbers.length; i++) {
@@ -134,27 +134,25 @@ function bubbleSort(numbers) {
       if (numbers[j] > numbers[j + 1]) {
         //note use less than sign(<) if sorting in descending order!!!!
         //swap if in the wrong way
-        const temp = numbers[j];
-        numbers[j] = numbers[j + 1];
-        numbers[j + 1] = temp;
+        [numbers[j], numbers[j + 1]] = [numbers[j + 1], numbers[j]];
       }
     }
   }
   return numbers;
 }
-console.log(bubbleSort(numbers));
+console.log(bubbleSort(numbers5));
 
 //factorial calculation!!!Dont really get this one Re-work
 
-function factorialSum(item) {
+function factorialCalculation(item) {
   if (item === 0 || item === 1) {
     return 1;
   } else {
-    return item * factorialSum(item - 1);
+    return item * factorialCalculation(item - 1);
   }
 }
 
-console.log(factorialSum(5));
+console.log(factorialCalculation(5));
 
 // Factorial of an array of numbers using the factorialSum function above ln 149
 
@@ -163,13 +161,13 @@ const arrFactorials = [1, 2, 3, 4, 5, 6];
 function factorialArraySum(item) {
   let sum = 0;
   for (let i = 0; i < item.length; i++) {
-    sum += factorialSum(item[i]);
+    sum += factorialCalculation(item[i]);
   }
   return sum;
 }
 
 const results = factorialArraySum(arrFactorials);
-console.log(results);
+console.log("Array factorial is: " + results);
 
 //for each array method,works like a for loop, but more elegant!!
 const myNumbers = [1, 2, 3, 4, 5, 8];
@@ -297,41 +295,93 @@ console.log(quickSort(sortNumbers));
 //Tried it out quicksort here just to fully understand the logic!!
 const attak = [35, 2, 6, 8, 0, 4, 10.5, 10];
 
-function fastSort(num) {
-  if (num.length <= 1) {
-    return num;
-  }
-  const pivot = num[0];
-  const left = [];
-  const right = [];
-  for (let i = 1; i < num.length; i++) {
-    if (num[i] < pivot) {
-      left.push(num[i]);
-    } else {
-      right.push(num[i]);
-    }
-  }
-  return fastSort(left).concat(pivot, fastSort(right));
-}
-console.log(fastSort(attak));
+// function fastSort(num) {
+//   if (num.length <= 1) {
+//     return num;
+//   }
+//   const pivot = num[0];
+//   const left = [];
+//   const right = [];
+//   for (let i = 1; i < num.length; i++) {
+//     if (num[i] < pivot) {
+//       left.push(num[i]);
+//     } else {
+//       right.push(num[i]);
+//     }
+//   }
+//   return fastSort(left).concat(pivot, fastSort(right));
+// }
+// console.log(fastSort(attak));
 
-console.log(numbers.sort((a, b) => b - a));
+// console.log(numbers.sort((a, b) => b - a));
 
 //Bubblesort function
 //Now I fully understand the logic in bubble sort and quick sort as well!!
-function bubbleSort1(arr) {
-  const len = arr.length;
+// function bubbleSort1(arr) {
+//   const len = arr.length;
 
-  for (let i = 0; i < len; i++) {
-    for (let j = 0; j < len - 1 - i; j++) {
-      if (arr[j] > arr[j + 1]) {
-        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
-      }
+//   for (let i = 0; i < len; i++) {
+//     for (let j = 0; j < len - 1 - i; j++) {
+//       if (arr[j] > arr[j + 1]) {
+//         [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+//       }
+//     }
+//   }
+//   return arr;
+// }
+// const list = [63, 24, 5, 7, 11, 90, 0, 5];
+
+// const sortedList = bubbleSort1(list);
+// console.log(sortedList);
+// console.log(typeof list);
+
+const myTally = [54, 34, 1, 5, 15, 76, 500, -5, 0, -1];
+
+const students = ["Staicy", "Arefin", "Christian", "Mert", "Andy", "Roberto"];
+
+console.log(students[Math.floor(Math.random() * students.length)]);
+
+//finding the longest word in a sentence
+//making use of regular expressions
+
+function findLongestWord(sent) {
+  const words = sent.split(" ");
+
+  let longestWord = "";
+  for (const word of words) {
+    const cleanedWord = word.replace(/[^a-zA-Z]/g, "");
+
+    if (cleanedWord.length > longestWord.length) {
+      longestWord = cleanedWord;
     }
   }
-  return arr;
+  return longestWord;
 }
-const list = [63, 24, 5, 7, 11, 90, 0, 5];
+const saying = "The quick brown fox jumped over the lazybuyyuing cat";
+console.log(findLongestWord(saying));
 
-const sortedList = bubbleSort1(list);
-console.log(sortedList);
+//Removing duplicates in an array
+function removeDuplicates(arr) {
+  return Array.from(new Set(arr));
+}
+const duplicates = [1, 2, 2, 3, 3, 10, 10, 4, 5, 5, 4];
+
+console.log(removeDuplicates(duplicates));
+
+//Finding a missing number in an array
+
+function findMissingNumber(arr, n) {
+  const expectedSum = (n * (n + 1)) / 2;
+
+  //calculate sum of the given array
+  const actualSurm = arr.reduce((sum, num) => (sum += num), 0);
+
+  //Find missing number
+  const missingNumber = expectedSum - actualSurm;
+
+  return missingNumber;
+}
+const arrayWithMissingNumber = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+const n = 10;
+
+console.log(findMissingNumber(arrayWithMissingNumber, n));

@@ -73,13 +73,13 @@ console.log(reverse("Hello"));
 
 const myarray = [1, 2, 3, 4, 5, 6, 7];
 
-function fibonacci(n) {
-  if (n <= 1) {
-    return n;
-  } else {
-    return fibonacci(n - 1) + fibonacci(n - 2);
-  }
-}
+// function fibonacci(n) {
+//   if (n <= 1) {
+//     return n;
+//   } else {
+//     return fibonacci(n - 1) + fibonacci(n - 2);
+//   }
+// }
 
 const fibarray = myarray.map((item) => fibonacci(item)); //implementing it with an array and map function
 console.log(fibarray);
@@ -212,3 +212,37 @@ console.log(
   Object.keys(obj).concat(Object.values(obj)).concat(Object.entries(obj))
 );
 const anotherSentence = "Why do you want to be big?";
+
+//Anagram function!!
+
+function anality(str1, str2) {
+  let a = str1.toLowerCase().split("").sort().join("");
+  let b = str2.toLowerCase().split("").sort().join("");
+
+  return a === b;
+}
+console.log(anality("listen", "silent"));
+
+function abaci(n) {
+  if (n <= 1) {
+    return n;
+  } else {
+    return abaci(n - 1) + abaci(n - 2);
+  }
+}
+
+const aixis = [1, 2, 3, 4, 5];
+console.log(abaci(5));
+
+//Fibonnaci making use of memoization in order to reduce redundant calculations
+function fibonacci(n, memo = {}) {
+  if (n <= 1) {
+    return n;
+  }
+  if (memo[n]) {
+    return memo[n];
+  }
+  memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
+  return memo[n];
+}
+console.log(fibonacci(6));
