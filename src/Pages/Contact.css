@@ -4,6 +4,9 @@
   border: var(--border);
   background-color: var(--background-custom-color);
   border-radius: var(--border-radius);
+  margin-top: 20px;
+
+  padding: 40px;
 }
 
 .contact-container-item {

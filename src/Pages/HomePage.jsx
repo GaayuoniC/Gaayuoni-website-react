@@ -4,13 +4,15 @@ export function HomePage() {
   return (
     <div className="home-page-contianer">
       <div>
+        <figure>
+          <img
+            src={"BEWERBUNGFOTO.jpg"}
+            alt="A picture of a man called Christian"
+          />
+        </figure>
+      </div>
+      <div>
         <article>
-          <figure>
-            <img
-              src={"BEWERBUNGFOTO.jpg"}
-              alt="A picture of a man called Christian"
-            />
-          </figure>
           <h1>Hello! Hallo! Привет! Amaaraba! Akwaaba!</h1>
           <p>
             Welcome! My name is Christian and am originally from Ghana. Having

@@ -1,17 +1,19 @@
 .home-page-contianer {
   display: flex;
+  flex-direction: row;
 }
 
 img {
-  width: 150px;
-  height: 150px;
-  border-radius: 40%;
+  width: 430px;
+  /* height: 150px; */
+  /* border-radius: 50%; */
   padding-top: 10px;
   border: var(--border);
-  box-shadow: var(--box-shadow);
+  /* box-shadow: var(--box-shadow); */
   /* float helps to wrap the text around the image */
-  float: left;
-  margin-right: 20px;
+  /* float: left; */
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
 article {

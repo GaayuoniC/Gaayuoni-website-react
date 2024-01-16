@@ -19,6 +19,7 @@
 .logo {
   font-size: 2.5rem;
   color: white;
+  padding-left: 30px;
 }
 .header-nav-container {
   display: flex;
@@ -26,6 +27,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  padding-right: 20px;
 }
 .header-nav-container li {
   color: white;
