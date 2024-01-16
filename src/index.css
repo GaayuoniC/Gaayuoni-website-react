@@ -6,6 +6,7 @@
 
   --border-radius: 10px;
   --border-line: 1px solid black;
+  --background-custom-color: rgba(245, 245, 245, 1);
 }
 
 * {

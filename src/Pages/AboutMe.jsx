@@ -27,29 +27,28 @@ export function AboutMe() {
             After graduation I gained admission to Prebyterian Boys Secondary
             School in Accra, the capital city of Ghana. The school was
             considered one of the best schools in Ghana. After two years of
-            studies in Geography,Economics and Government, I passed my Advanced
+            studies in Geography, Economics and Government, I passed my Advanced
             Level certification, the equivalent of level 100 in the United
             Kingdom ie first year of university education.
+          </p>
+          <p>
+            After completing my Advanced Level education it was mandatory for
+            for me to do national service. I was posted as a teacher to Vittin
+            Secondary School in Tamale where I taught economics. This was
+            1996/97 academic year. During my service I was able to apply for a
+            job as a Radio Presenter with the Ghana Broadcasting Corporation in
+            Tamale.
+          </p>
+          <p>
+            I worked as a Radio Presenter and a DJ from 1997 to 1998. During
+            this time I introduced more lively programmes and attracted more
+            listeners to the radio station. The name of the radio station was
+            and still is Radio Savanna FM and my radio name was Kriss Gee.
           </p>
         </div>
         <div className="myLife-item">
           <h3>Adulthood</h3>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
-            consectetur ducimus vitae dolore odit tempore at nam id ex
-            accusamus, numquam itaque delectus doloribus quibusdam corporis
-            rerum velit autem suscipit dignissimos veritatis? Temporibus
-            doloremque ex placeat quidem eaque, voluptate numquam, pariatur
-            aperiam perferendis perspiciatis est recusandae adipisci dicta eius
-            debitis molestiae asperiores? Placeat aspernatur, repudiandae saepe
-            eaque nulla exercitationem numquam perspiciatis dolores unde
-            voluptates sapiente, reprehenderit qui atque eveniet quos provident
-            rerum tenetur temporibus sint. Quaerat ab, id ipsa quae labore
-            quisquam facilis amet beatae inventore sapiente perspiciatis ullam
-            cumque recusandae iste sed asperiores ad sint. Accusamus, itaque
-            labore! Accusantium.
-          </p>
+          <p></p>
         </div>
       </div>
     </>

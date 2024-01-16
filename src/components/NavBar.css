@@ -29,10 +29,24 @@
 }
 .header-nav-container li {
   color: white;
+  font-weight: bold;
   font-size: 0.95rem;
   padding-left: 10px;
-  font-weight: 500;
 }
 .header-nav-container li:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 360px) {
+  .logo {
+    font-size: 1.5rem;
+    color: white;
+    align-self: flex-start;
+  }
+  .header-nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    font-weight: 1rem;
+  }
 }

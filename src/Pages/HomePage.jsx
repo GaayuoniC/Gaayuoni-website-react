@@ -4,7 +4,10 @@ export function HomePage() {
   return (
     <div className="home-page-contianer">
       <figure>
-        <img src={"Chris.jpeg"} alt="A picture of a man called Christian" />
+        <img
+          src={"BEWERBUNGFOTO.jpg"}
+          alt="A picture of a man called Christian"
+        />
       </figure>
       <div>
         <article>
