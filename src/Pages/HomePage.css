@@ -1,6 +1,5 @@
 .home-page-contianer {
   display: flex;
-  justify-content: space-around;
 }
 
 img {
@@ -8,8 +7,8 @@ img {
   height: 150px;
   border-radius: 40%;
   padding-top: 10px;
-  border: 1px solid transparent;
-  box-shadow: 8px 8px 2px 0 rgba(41, 39, 39, 0.5);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
   /* float helps to wrap the text around the image */
   float: left;
   margin-right: 20px;
@@ -21,7 +20,7 @@ article {
   line-height: 1.5;
   font-size: 18px;
   text-align: justify;
-  width: 80%;
+  width: 90%;
 }
 
 @media screen and (max-width: 360px) {

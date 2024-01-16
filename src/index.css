@@ -4,15 +4,21 @@
   font-weight: 400;
   padding: 15px;
 
+  --border: 1px solid transparent;
   --border-radius: 10px;
   --border-line: 1px solid black;
   --background-custom-color: rgba(245, 245, 245, 1);
+  --box-shadow: 8px 8px 2px 0 rgba(41, 39, 39, 0.5);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+h3,
+h1 {
+  text-decoration: underline;
 }
 
 /* body {
