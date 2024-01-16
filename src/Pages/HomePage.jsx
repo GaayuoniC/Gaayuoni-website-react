@@ -3,14 +3,14 @@ import "./HomePage.css";
 export function HomePage() {
   return (
     <div className="home-page-contianer">
-      <figure>
-        <img
-          src={"BEWERBUNGFOTO.jpg"}
-          alt="A picture of a man called Christian"
-        />
-      </figure>
       <div>
         <article>
+          <figure>
+            <img
+              src={"BEWERBUNGFOTO.jpg"}
+              alt="A picture of a man called Christian"
+            />
+          </figure>
           <p>
             Welcome! My name is Christian and am originally from Ghana. Having
             spent the first half of my life pursuing two of my dreams in life, I
