@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import Stack from "@mui/material/Stack";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import SmartphoneOutlinedIcon from "@mui/icons-material/SmartphoneOutlined";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import "./CvPdf.css";
 export function CvPdf() {
   return (
     <div className="cv-container">
@@ -15,8 +19,8 @@ export function CvPdf() {
 
       <div className="container-item-top"></div>
       <div className="container-item-body">
-        <h2>Christian Gaayuoni</h2>
-        <h3>Frontend Developer Web & App</h3>
+        <h2>Kurz Profil</h2>
+
         <p>
           Ich bin ein Mensch, der keine Angst hat, neue Dinge zu lernen. Als
           neuer Frontend Developer fühle ich mich sehr wohl, einen neuen Weg in
@@ -33,14 +37,28 @@ export function CvPdf() {
         </p>
       </div>
       <div className="container-contact-details">
-        <p>gayuoni@proton.me</p>
-        <p>+49 (0) 15219 313 987</p>
-        <p>Freiligrathstr. 6, 53123 Bonn, Deutschland</p>
+        <div className="icon-email-container">
+          <EmailOutlinedIcon fontSize="medium" />
+
+          <p>gayuoni@proton.me</p>
+        </div>
+        <div className="icon-mobile-container">
+          <SmartphoneOutlinedIcon />
+          <p>+49 (0) 15219 313 987</p>
+        </div>
+
+        <div className="icon-address-container">
+          <HomeOutlinedIcon fontSize="medium" />
+
+          <p>Freiligrathstr. 6, 53123 Bonn, Deutschland</p>
+        </div>
         {/* re-work needed for the git link */}
-        <p>Github : </p>
-        <Link to="https://github.com/GaayuoniC" target="_blank">
-          GaayuoniC
-        </Link>
+        <div className="git-address-container">
+          <p>Github: </p>
+          <Link to="https://github.com/GaayuoniC" target="_blank">
+            GaayuoniC
+          </Link>
+        </div>
       </div>
       <div>
         <h3>Fähigkeiten</h3>
@@ -61,7 +79,7 @@ export function CvPdf() {
         <p>
           8/2023-12/2023 FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus Talents -
           Bonn Javascript grundlagen, HTML5 & CSS§, React.js und React Native
-          gelernt und meine eigene Web und App KroNekt entwickelt
+          gelernt und meine eigene Web und App Projekt entwickelt
         </p>
         <p>
           10/2022-12/2022 SOFTWARE TESTING TRAININGS ISTQB - Bonn Test planning,
@@ -92,7 +110,7 @@ export function CvPdf() {
         <p>A, B</p>
       </div>
       <div>
-        <h3>Guitar Spielen, Fußball</h3>
+        <h3>Hobbies</h3>
         <p>
           Ich liebe Musik und wenn ich guitar spiele dann bin ich immer
           glücklich and zufrieden. Fußball ist auch cool weil es geht um wie ein
