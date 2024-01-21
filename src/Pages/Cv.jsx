@@ -12,7 +12,7 @@ export function Cv() {
     setIsLoading(loadingState);
   }
 
-  //function to handle errors:
+  //function to handle errors when its not loading:
   function handleError() {
     setHasError(true);
     setIsLoading(false);
