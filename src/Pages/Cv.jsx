@@ -20,8 +20,6 @@ export function Cv() {
 
   return (
     <>
-      <h1>My CV</h1>
-
       {isLoading ? (
         <div css={loadingContainerStyle}>
           <ClipLoader color={"#36d7b7"} loading={isLoading} />

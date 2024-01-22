@@ -6,6 +6,11 @@ import SmartphoneOutlinedIcon from "@mui/icons-material/SmartphoneOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import "./CvPdf.css";
 export function CvPdf() {
+  //defining custom style for changing material ui icons!!
+  const iconStyle = {
+    color: "blue",
+  };
+
   return (
     <div className="cv-container">
       {/* {
@@ -18,43 +23,37 @@ export function CvPdf() {
       } */}
 
       <div className="container-item-top"></div>
-      <div className="container-item-body">
+      <article className="container-item-body">
         <h2>Kurz Profil</h2>
-
         <p>
           Ich bin ein Mensch, der keine Angst hat, neue Dinge zu lernen. Als
           neuer Frontend Developer fühle ich mich sehr wohl, einen neuen Weg in
-          meiner Laufbahn zu gehen.
+          meiner Laufbahn zu gehen. Lerne gerne, wie man technicher
+          Documetationen effektiv liest und nutzt. Das ist eine wichtiger
+          Fähigkeit für mich, um mit neuen Tools und Technologien umzugehen. Ich
+          suche nach erfahrenen Entwicklern, die als Mentoren fungieren können,
+          besonders in einen agilen und dynamische Arbeitsumfeld
         </p>
-        <p>
-          Lerne gerne, wie man technicher Documetationen effektiv liest und
-          nutzt. Das ist eine wichtiger Fähigkeit für mich, um mit neuen Tools
-          und Technologien umzugehen.
-        </p>
-        <p>
-          Ich suche nach erfahrenen Entwicklern, die als Mentoren fungieren
-          können, besonders in einen agilen und dynamische Arbeitsumfeld
-        </p>
-      </div>
+      </article>
       <div className="container-contact-details">
         <div className="icon-email-container">
-          <EmailOutlinedIcon fontSize="medium" />
+          <EmailOutlinedIcon fontSize="medium" style={iconStyle} />
 
           <p>gayuoni@proton.me</p>
         </div>
         <div className="icon-mobile-container">
-          <SmartphoneOutlinedIcon />
+          <SmartphoneOutlinedIcon style={iconStyle} />
           <p>+49 (0) 15219 313 987</p>
         </div>
 
         <div className="icon-address-container">
-          <HomeOutlinedIcon fontSize="medium" />
+          <HomeOutlinedIcon fontSize="medium" style={iconStyle} />
 
           <p>Freiligrathstr. 6, 53123 Bonn, Deutschland</p>
         </div>
         {/* re-work needed for the git link */}
         <div className="git-address-container">
-          <p>Github: </p>
+          <p id="github-label">Github: </p>
           <Link to="https://github.com/GaayuoniC" target="_blank">
             GaayuoniC
           </Link>
@@ -78,8 +77,8 @@ export function CvPdf() {
 
         <p>
           8/2023-12/2023 FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus Talents -
-          Bonn Javascript grundlagen, HTML5 & CSS§, React.js und React Native
-          gelernt und meine eigene Web und App Projekt entwickelt
+          Bonn Javascript grundlagen, HTML5 & CSS3, React.js und React Native
+          gelernt und meine eigene Web und App Projekt entwickelt.
         </p>
         <p>
           10/2022-12/2022 SOFTWARE TESTING TRAININGS ISTQB - Bonn Test planning,

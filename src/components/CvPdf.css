@@ -24,3 +24,7 @@
 .git-address-container > p {
   margin-left: 10px;
 }
+
+#github-label {
+  margin-right: 10px;
+}
