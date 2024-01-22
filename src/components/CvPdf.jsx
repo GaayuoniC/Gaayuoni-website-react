@@ -8,9 +8,14 @@ import "./CvPdf.css";
 import { myStudiesData, itRelevantData } from "../../data/myData";
 
 export function CvPdf() {
-  //defining custom style for changing material ui icons!!
   const iconStyle = {
     color: "blue",
+  };
+  const buttonStyle = {
+    backgroundColor: "rgba(245, 245, 245, 1)",
+    fontSize: 18,
+
+    cursor: "pointer",
   };
 
   return (
@@ -67,14 +72,31 @@ export function CvPdf() {
       <article>
         <h3>Fähigkeiten</h3>
         <Stack spacing={2} direction="row" className="container-stack">
-          <Button variant="outlined">HTML5</Button>
-          <Button variant="outlined">CSS3</Button>
-          <Button variant="outlined">Javascript</Button>
-          <Button variant="outlined">React.js</Button>
-          <Button variant="outlined">React Native</Button>
-          <Button variant="outlined">SCM - Git & Github</Button>
-          <Button variant="outlined">Responsive design</Button>
-          <Button variant="outlined">Web- und App-Entwicklung</Button>
+          <Button variant="outlined" style={buttonStyle}>
+            HTML5
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            CSS3
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            {" "}
+            Javascript
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            React.js
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            React Native
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            SCM - Git & Github
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            Responsive design
+          </Button>
+          <Button variant="outlined" style={buttonStyle}>
+            Web - und App - Entwicklung
+          </Button>
         </Stack>
       </article>
       <article>
