@@ -29,10 +29,10 @@ export function AboutMe() {
             considered one of the best schools in Ghana. After two years of
             studies in Geography, Economics and Government, I passed my Advanced
             Level certification, the equivalent of level 100 in the United
-            Kingdom ie first year of university education.
+            Kingdom i.e. first year of university education.
           </p>
           <p>
-            After completing my Advanced Level education it was mandatory for
+            After completing my Advanced Level education, it was mandatory for
             for me to do national service. I was posted as a teacher to Vittin
             Secondary School in Tamale where I taught economics. This was
             1996/97 academic year. During my service I was able to apply for a
