@@ -1,8 +1,14 @@
 .cv-container {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+
   gap: 20px;
+}
+.container-item-body {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
 }
 
 .container-contact-details {
@@ -32,6 +38,26 @@
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 15px;
+}
+.education-container,
+.it-education-container {
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  width: 100%;
+
+  margin: 10px;
+}
+.education-item,
+.it-education-item {
+  flex: 1;
+  list-style-type: none;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  background: var(--background-custom-color);
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
 }
 
 @media screen and (max-width: 360px) {

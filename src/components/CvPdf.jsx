@@ -5,7 +5,7 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import SmartphoneOutlinedIcon from "@mui/icons-material/SmartphoneOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import "./CvPdf.css";
-import "../data/MyData";
+import { myStudiesData, itRelevantData } from "../../data/myData";
 
 export function CvPdf() {
   //defining custom style for changing material ui icons!!
@@ -16,18 +16,30 @@ export function CvPdf() {
   return (
     <div className="cv-container">
       <div className="container-item-top"></div>
+
       <article className="container-item-body">
-        <h2>Kurz Profil</h2>
-        <p>
-          Ich bin ein Mensch, der gerne neuer Sachen lernt. Als neuer Frontend
-          Developer fühle ich mich sehr wohl, einen neuen Weg in meiner Laufbahn
-          zu gehen. Lerne gerne, wie man technicher Dokumetationen effektiv
-          liest und nutzt. Das ist eine wichtiger Fähigkeit für mich, um mit
-          neuen Tools und Technologien umzugehen. Ich suche nach erfahrenen
-          Entwicklern, die als Mentoren fungieren können, besonders in einen
-          agilen und dynamischen Arbeitsumfeld.
-        </p>
+        <div className="container-item-body-1">
+          <h2>Kurz Profil</h2>
+          <p>
+            Ich bin ein Mensch, der gerne neuer Sachen lernt. Als neuer Frontend
+            Developer fühle ich mich sehr wohl, einen neuen Weg in meiner
+            Laufbahn zu gehen. Lerne gerne, wie man technicher Dokumetationen
+            effektiv liest und nutzt. Das ist eine wichtiger Fähigkeit für mich,
+            um mit neuen Tools und Technologien umzugehen. Ich suche nach
+            erfahrenen Entwicklern, die als Mentoren fungieren können, besonders
+            in einen agilen und dynamischen Arbeitsumfeld.
+          </p>
+        </div>
+        <div className="container-item-body-1">
+          <figure>
+            <img
+              src={"cvFoto.jpeg"}
+              alt="A picture of a man on his resume page"
+            />
+          </figure>
+        </div>
       </article>
+
       <article className="container-contact-details">
         <div className="icon-email-container">
           <EmailOutlinedIcon fontSize="medium" style={iconStyle} />
@@ -67,40 +79,33 @@ export function CvPdf() {
       </article>
       <article>
         <h3>IT relevante Berufserfahrung </h3>
-
-        <p>
-          8/2023 - 12/2023 <br /> FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus
-          Talents
-          <br />
-          Javascript grundlagen, HTML5 & CSS3, React.js und React Native gelernt
-          und meine eigene Web und App Projekt entwickelt
-          <br />
-          Bonn, Deutschland
-        </p>
-        <p>
-          10/2022 - 12/2022 <br />
-          SOFTWARE TESTING TRAININGS ISTQB <br /> Test planning, Test management
-          Test Automation mit Katalon Studio
-          <br /> Bonn, Deutschland
-        </p>
+        <ul className="it-education-container">
+          {itRelevantData.map((study) => (
+            <li key={study.id} className="it-education-item">
+              {study.period} <br />
+              {study.title}
+              <br />
+              {study.institution}
+              <br />
+              {study.location}
+              <br />
+            </li>
+          ))}
+        </ul>
       </article>
       <article>
         <h3>Bildungsweg</h3>
-        <p>
-          2013 - 2014 <br />
-          Masters Universität Hamburg <br /> Friedensforschung und
-          Sicherheitspolitik <br /> Hamburg, Deutschland
-        </p>
-        <p>
-          2004 - 2012 <br /> Engenieur bei der Britische Armee <br />
-          England
-        </p>
-        <p>
-          1998 - 2003 <br /> Bachelor University of Science and Technology
-          <br />
-          Immobilien Management Land Law, Resource Management, Property
-          Management <br /> Kumasi, Ghana
-        </p>
+        <ul className="education-container">
+          {myStudiesData.map((study) => (
+            <li key={study.id} className="education-item">
+              {study.period} <br /> {study.title} <br /> {study.institution}
+              <br />
+              {study.field}
+              <br />
+              {study.location}
+            </li>
+          ))}
+        </ul>
       </article>
       <article>
         <h3>Sprachen</h3>
@@ -121,4 +126,22 @@ export function CvPdf() {
       </article>
     </div>
   );
+}
+
+{
+  /* <p>
+          8/2023 - 12/2023 <br /> FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus
+          Talents
+          <br />
+          Javascript grundlagen, HTML5 & CSS3, React.js und React Native gelernt
+          und meine eigene Web und App Projekt entwickelt
+          <br />
+          Bonn, Deutschland
+        </p>
+        <p>
+          10/2022 - 12/2022 <br />
+          SOFTWARE TESTING TRAININGS ISTQB <br /> Test planning, Test management
+          Test Automation mit Katalon Studio
+          <br /> Bonn, Deutschland
+        </p> */
 }

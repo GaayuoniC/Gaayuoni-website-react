@@ -1,23 +1,23 @@
-const myStudiesData = [
+export const myStudiesData = [
   {
     id: 1,
-    period: 2013 - 2014,
+    period: "2013 - 2014",
     title: "Masters",
     institution: "Universität Hamburg",
-    field: "Friedensforschung und Sicherheitpolitik",
+    field: "Friedensforschung,Sicherheitpolitik",
     location: "Hambuburg, Deutschland",
   },
   {
     id: 2,
-    period: 2004 - 2012,
+    period: "2004 - 2012",
     title: "Engenieur",
     institution: "Britische Armee",
-    field: "Versungsengenieur",
+    field: "Vermessungengenieur",
     location: "England, Großbritannien",
   },
   {
     id: 3,
-    period: 1998 - 2003,
+    period: "1998 - 2003",
     title: "Bachelors",
     institution: "University of Science and Technology",
     field:
@@ -26,7 +26,7 @@ const myStudiesData = [
   },
 ];
 
-const itRelevantData = [
+export const itRelevantData = [
   {
     id: 1,
     period: "8/2023 - 12/2023",
