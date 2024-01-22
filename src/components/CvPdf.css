@@ -1,0 +1,30 @@
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+}
+
+.container-contact-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-email-container,
+.icon-mobile-container,
+.icon-address-container,
+.git-address-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.icon-email-container > p,
+.icon-mobile-container > p,
+.icon-address-container > p,
+.git-address-container > p {
+  margin-left: 10px;
+}
+
+#github-label {
+  margin-right: 10px;
+}

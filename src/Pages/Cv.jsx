@@ -12,7 +12,7 @@ export function Cv() {
     setIsLoading(loadingState);
   }
 
-  //function to handle errors:
+  //function to handle errors when its not loading:
   function handleError() {
     setHasError(true);
     setIsLoading(false);
@@ -20,8 +20,6 @@ export function Cv() {
 
   return (
     <>
-      <h1>My CV</h1>
-
       {isLoading ? (
         <div css={loadingContainerStyle}>
           <ClipLoader color={"#36d7b7"} loading={isLoading} />
