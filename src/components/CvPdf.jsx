@@ -35,7 +35,7 @@ export function CvPdf() {
           besonders in einen agilen und dynamische Arbeitsumfeld
         </p>
       </article>
-      <div className="container-contact-details">
+      <article className="container-contact-details">
         <div className="icon-email-container">
           <EmailOutlinedIcon fontSize="medium" style={iconStyle} />
 
@@ -58,8 +58,8 @@ export function CvPdf() {
             GaayuoniC
           </Link>
         </div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h3>Fähigkeiten</h3>
         <Stack spacing={2} direction="row">
           <Button variant="outlined">HTML5</Button>
@@ -71,8 +71,8 @@ export function CvPdf() {
           <Button variant="outlined">Responsive design</Button>
           <Button variant="outlined">Web- und App-Entwicklung</Button>
         </Stack>
-      </div>
-      <div>
+      </article>
+      <article>
         <h3>Berufserfahrung</h3>
 
         <p>
@@ -84,38 +84,42 @@ export function CvPdf() {
           10/2022-12/2022 SOFTWARE TESTING TRAININGS ISTQB - Bonn Test planning,
           Test management Test Automation mit Katalon Studio
         </p>
-      </div>
-      <div>
+      </article>
+      <article>
         <h3>Bildungsweg</h3>
         <p>
-          2013-2014 MASTERS Universität Hamburg, Friedensforschung und
-          Sicherheitspolitik Konfiktforschung, Friedensforschung,
-          Sicherheitspolitik
+          2013-2014 <br />
+          MASTERS Universität Hamburg <br /> Friedensforschung,
+          Sicherheitspolitik und Konfiktforschung, <br /> Hamburg, Deutschland
         </p>
-        <p>2004-2012 Enginier bei der Britische Armee</p>
         <p>
-          Hamburg 977/ J 133- BACHELOR University of Science and Technology,
-          Immobilien Management Land Law, EaB jating, jesource Management,
-          KropertG Management Kumasi, Ghana
+          2004-2012 <br /> Engenieur bei der Britische Armee <br />
+          England
         </p>
-      </div>
-      <div>
+        <p>
+          1998/ 2003 <br /> BACHELOR University of Science and Technology
+          <br />
+          Immobilien Management Land Law, Resource Management, Property
+          Management <br /> Kumasi, Ghana
+        </p>
+      </article>
+      <article>
         <h3>Sprachen</h3>
         <p>Englisch: Muttersprache</p>
         <p>Deutsch: Verhandlungssicher</p>
-      </div>
-      <div>
+      </article>
+      <article>
         <h3>Fühereschein</h3>
         <p>A, B</p>
-      </div>
-      <div>
+      </article>
+      <article>
         <h3>Hobbies</h3>
         <p>
           Ich liebe Musik und wenn ich guitar spiele dann bin ich immer
           glücklich and zufrieden. Fußball ist auch cool weil es geht um wie ein
           Team miteinander Ihre Eiel erreichen können
         </p>
-      </div>
+      </article>
     </div>
   );
 }
