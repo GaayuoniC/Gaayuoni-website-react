@@ -26,13 +26,13 @@ export function CvPdf() {
       <article className="container-item-body">
         <h2>Kurz Profil</h2>
         <p>
-          Ich bin ein Mensch, der keine Angst hat, neue Dinge zu lernen. Als
-          neuer Frontend Developer fühle ich mich sehr wohl, einen neuen Weg in
-          meiner Laufbahn zu gehen. Lerne gerne, wie man technicher
-          Documetationen effektiv liest und nutzt. Das ist eine wichtiger
-          Fähigkeit für mich, um mit neuen Tools und Technologien umzugehen. Ich
-          suche nach erfahrenen Entwicklern, die als Mentoren fungieren können,
-          besonders in einen agilen und dynamische Arbeitsumfeld
+          Ich bin ein Mensch, der gerne neuer Sachen lernt. Als neuer Frontend
+          Developer fühle ich mich sehr wohl, einen neuen Weg in meiner Laufbahn
+          zu gehen. Lerne gerne, wie man technicher Dokumetationen effektiv
+          liest und nutzt. Das ist eine wichtiger Fähigkeit für mich, um mit
+          neuen Tools und Technologien umzugehen. Ich suche nach erfahrenen
+          Entwicklern, die als Mentoren fungieren können, besonders in einen
+          agilen und dynamischen Arbeitsumfeld.
         </p>
       </article>
       <article className="container-contact-details">
@@ -73,10 +73,10 @@ export function CvPdf() {
         </Stack>
       </article>
       <article>
-        <h3>Berufserfahrung</h3>
+        <h3>IT relevante Berufserfahrung </h3>
 
         <p>
-          8/2023-12/2023 <br /> FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus
+          8/2023 - 12/2023 <br /> FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus
           Talents
           <br />
           Javascript grundlagen, HTML5 & CSS3, React.js und React Native gelernt
@@ -85,7 +85,7 @@ export function CvPdf() {
           Bonn, Deutschland
         </p>
         <p>
-          10/2022-12/2022 <br />
+          10/2022 - 12/2022 <br />
           SOFTWARE TESTING TRAININGS ISTQB <br /> Test planning, Test management
           Test Automation mit Katalon Studio
           <br /> Bonn, Deutschland
@@ -94,16 +94,16 @@ export function CvPdf() {
       <article>
         <h3>Bildungsweg</h3>
         <p>
-          2013-2014 <br />
-          MASTERS Universität Hamburg <br /> Friedensforschung,
-          Sicherheitspolitik und Konfiktforschung, <br /> Hamburg, Deutschland
+          2013 - 2014 <br />
+          Masters Universität Hamburg <br /> Friedensforschung und
+          Sicherheitspolitik <br /> Hamburg, Deutschland
         </p>
         <p>
-          2004-2012 <br /> Engenieur bei der Britische Armee <br />
+          2004 - 2012 <br /> Engenieur bei der Britische Armee <br />
           England
         </p>
         <p>
-          1998-2003 <br /> BACHELOR University of Science and Technology
+          1998 - 2003 <br /> Bachelor University of Science and Technology
           <br />
           Immobilien Management Land Law, Resource Management, Property
           Management <br /> Kumasi, Ghana
@@ -115,15 +115,15 @@ export function CvPdf() {
         <p>Deutsch: Verhandlungssicher</p>
       </article>
       <article>
-        <h3>Fühereschein</h3>
+        <h3>Führerschein</h3>
         <p>A, B</p>
       </article>
       <article>
         <h3>Hobbies</h3>
         <p>
-          Ich liebe Musik und wenn ich guitar spiele dann bin ich immer
-          glücklich and zufrieden. Fußball ist auch cool weil es geht um wie ein
-          Team miteinander Ihre Eiel erreichen können
+          Ich liebe Musik. Wenn ich Guitare spiele, dann bin ich immer glücklich
+          und zufrieden. Fußball finde ich auch cool, weil es darum geht, wie
+          ein Team zusammen seinen Ziel erreicht.
         </p>
       </article>
     </div>
