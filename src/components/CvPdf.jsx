@@ -5,6 +5,8 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import SmartphoneOutlinedIcon from "@mui/icons-material/SmartphoneOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import "./CvPdf.css";
+import "../data/MyData";
+
 export function CvPdf() {
   //defining custom style for changing material ui icons!!
   const iconStyle = {
@@ -13,15 +15,6 @@ export function CvPdf() {
 
   return (
     <div className="cv-container">
-      {/* {
-        <iframe
-          title="PDF Viewer"
-          width="100%"
-          height="500px"
-          src="../../pdf/Lebenslauf von Christian Gaayuoni.pdf"
-        />
-      } */}
-
       <div className="container-item-top"></div>
       <article className="container-item-body">
         <h2>Kurz Profil</h2>
@@ -51,7 +44,7 @@ export function CvPdf() {
 
           <p>Freiligrathstr. 6, 53123 Bonn, Deutschland</p>
         </div>
-        {/* re-work needed for the git link */}
+
         <div className="git-address-container">
           <p id="github-label">Github: </p>
           <Link to="https://github.com/GaayuoniC" target="_blank">
