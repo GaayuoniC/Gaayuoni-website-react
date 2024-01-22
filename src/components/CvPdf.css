@@ -28,3 +28,16 @@
 #github-label {
   margin-right: 10px;
 }
+.container-stack {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+@media screen and (max-width: 360px) {
+  .container-stack {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}

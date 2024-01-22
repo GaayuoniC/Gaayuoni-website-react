@@ -61,7 +61,7 @@ export function CvPdf() {
       </article>
       <article>
         <h3>Fähigkeiten</h3>
-        <Stack spacing={2} direction="row">
+        <Stack spacing={2} direction="row" className="container-stack">
           <Button variant="outlined">HTML5</Button>
           <Button variant="outlined">CSS3</Button>
           <Button variant="outlined">Javascript</Button>
