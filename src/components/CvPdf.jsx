@@ -79,7 +79,6 @@ export function CvPdf() {
             CSS3
           </Button>
           <Button variant="outlined" style={buttonStyle}>
-            {" "}
             Javascript
           </Button>
           <Button variant="outlined" style={buttonStyle}>
@@ -148,22 +147,4 @@ export function CvPdf() {
       </article>
     </div>
   );
-}
-
-{
-  /* <p>
-          8/2023 - 12/2023 <br /> FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus
-          Talents
-          <br />
-          Javascript grundlagen, HTML5 & CSS3, React.js und React Native gelernt
-          und meine eigene Web und App Projekt entwickelt
-          <br />
-          Bonn, Deutschland
-        </p>
-        <p>
-          10/2022 - 12/2022 <br />
-          SOFTWARE TESTING TRAININGS ISTQB <br /> Test planning, Test management
-          Test Automation mit Katalon Studio
-          <br /> Bonn, Deutschland
-        </p> */
 }
