@@ -76,13 +76,19 @@ export function CvPdf() {
         <h3>Berufserfahrung</h3>
 
         <p>
-          8/2023-12/2023 FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus Talents -
-          Bonn Javascript grundlagen, HTML5 & CSS3, React.js und React Native
-          gelernt und meine eigene Web und App Projekt entwickelt.
+          8/2023-12/2023 <br /> FRONTEND DEVELOPER BOOTCAMP Taktsoft Campus
+          Talents
+          <br />
+          Javascript grundlagen, HTML5 & CSS3, React.js und React Native gelernt
+          und meine eigene Web und App Projekt entwickelt
+          <br />
+          Bonn, Deutschland
         </p>
         <p>
-          10/2022-12/2022 SOFTWARE TESTING TRAININGS ISTQB - Bonn Test planning,
-          Test management Test Automation mit Katalon Studio
+          10/2022-12/2022 <br />
+          SOFTWARE TESTING TRAININGS ISTQB <br /> Test planning, Test management
+          Test Automation mit Katalon Studio
+          <br /> Bonn, Deutschland
         </p>
       </article>
       <article>
@@ -97,7 +103,7 @@ export function CvPdf() {
           England
         </p>
         <p>
-          1998/ 2003 <br /> BACHELOR University of Science and Technology
+          1998-2003 <br /> BACHELOR University of Science and Technology
           <br />
           Immobilien Management Land Law, Resource Management, Property
           Management <br /> Kumasi, Ghana
