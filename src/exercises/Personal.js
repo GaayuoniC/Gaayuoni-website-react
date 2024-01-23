@@ -385,3 +385,80 @@ const arrayWithMissingNumber = [2, 3, 4, 5, 6, 7, 8, 9, 10];
 const n = 10;
 
 console.log(findMissingNumber(arrayWithMissingNumber, n));
+
+//looping through an array using a for loop
+//and placing them in a list
+
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+
+let flen = fruits.length;
+let texti = "<ul>";
+
+for (let i = 0; i < flen; i++) {
+  texti += "<li>" + fruits[i] + "</li>";
+}
+texti += "</ul>";
+console.log(texti);
+
+fruits.push("Lemons");
+console.log(fruits);
+
+//ECMAScript5 introduced a new array method 'Array.isArray()'
+console.log(Array.isArray(fruits));
+
+// returns true if the array is really an array and not an object
+
+//copywithin an array
+console.log(fruits);
+console.log(fruits.copyWithin(2, 0));
+console.log(fruits.copyWithin(2, 0, 2));
+
+//using the flat method ()
+const myArr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+const newArr = myArr.flat();
+console.log(newArr);
+
+//splicing method
+//specifies the position to start, then how many to delete and then what to add
+const animals = ["Banana", "Orange", "Apple", "Mango"];
+animals.splice(2, 0, "Lemon", "Kiwi");
+console.log(animals);
+
+// introduced in 2023, the toSpliced()creates a new array without altering the
+// original array
+
+console.log(animals.sort().reverse().join(" ")); //reverse and join the array!!
+
+//using the sort method with a compare function for sorting numbers
+//you can use it in place of a bubble sort function. NOTE!
+
+const points = [40, 100, 1, 5, 25, 10];
+// points.sort((a, b) => a - b);
+points.sort(function (a, b) {
+  return b - a;
+});
+console.log(points);
+
+//sorting an array in a random manner
+const randomsort = points.slice().sort(function () {
+  return 0.5 - Math.random();
+});
+
+console.log(randomsort);
+//the above is not very accurate since it favours some numbers so the
+//Fisher Yates Method is used. It was introduced in data science in 1938!!!
+
+//Fisher Yates Method
+//A bit more complicated than the sort with a compare function
+
+for (let i = points.length - 1; i > 0; i--) {
+  let j = Math.floor(Math.random() * (i + 1));
+  let k = points[i];
+  points[i] = points[j];
+  points[j] = k;
+}
+console.log(points);

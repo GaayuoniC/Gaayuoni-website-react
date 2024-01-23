@@ -148,7 +148,7 @@ function binarySearch(arr, value, startPos, endPos) {
 
 //Right rotation of an array function
 function rotateRight(arr, rotations) {
-  if (rotations == 0) {
+  if (rotations == 0 && arr <= 1) {
     return arr;
   }
   for (let i = 0; i < rotations; i++) {
