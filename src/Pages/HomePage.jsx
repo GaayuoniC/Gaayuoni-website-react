@@ -13,7 +13,13 @@ export function HomePage() {
       </div>
       <div>
         <article>
-          <h1>Hello! Hallo! Привет! Amaaraba! Akwaaba!</h1>
+          <h1 className="continuous-slide">
+            <span>Hello! </span>
+            <span>Hallo! </span>
+            <span>Привет! </span>
+            <span>Amaaraba! </span>
+            <span>Akwaaba! </span>
+          </h1>
           <p>
             Welcome! My name is Christian and am originally from Ghana. Having
             spent the first half of my life pursuing two of my dreams in life, I

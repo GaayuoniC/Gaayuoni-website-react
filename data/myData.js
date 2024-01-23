@@ -20,8 +20,7 @@ export const myStudiesData = [
     period: "1998 - 2003",
     title: "Bachelors",
     institution: "University of Science and Technology",
-    field:
-      "Immobilien Management, Land Law, Resource Management, Property  Management",
+    field: "Immobilien Management, Land Law, Property  Management",
     location: "Kumasi, Ghana",
   },
 ];

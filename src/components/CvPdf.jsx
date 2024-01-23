@@ -128,23 +128,25 @@ export function CvPdf() {
           ))}
         </ul>
       </article>
-      <article>
-        <h3>Sprachen</h3>
-        <p>Englisch: Muttersprache</p>
-        <p>Deutsch: Verhandlungssicher</p>
-      </article>
-      <article>
-        <h3>Führerschein</h3>
-        <p>A, B</p>
-      </article>
-      <article>
-        <h3>Hobbies</h3>
-        <p>
-          Ich liebe Musik. Wenn ich Guitare spiele, dann bin ich immer glücklich
-          und zufrieden. Fußball finde ich auch cool, weil es darum geht, wie
-          ein Team zusammen seinen Ziel erreicht.
-        </p>
-      </article>
+      <div className="container-language-driver-hobby">
+        <article>
+          <h3>Sprachen</h3>
+          <p>Englisch: Muttersprache</p>
+          <p>Deutsch: Verhandlungssicher</p>
+        </article>
+        <article>
+          <h3>Führerschein</h3>
+          <p>A, B</p>
+        </article>
+        <article>
+          <h3>Hobbies</h3>
+          <p>
+            Ich liebe Musik. Wenn ich Guitare spiele, dann bin ich immer
+            glücklich und zufrieden. Fußball finde ich auch cool, weil es darum
+            geht, wie ein Team zusammen seinen Ziel erreicht.
+          </p>
+        </article>
+      </div>
     </div>
   );
 }
