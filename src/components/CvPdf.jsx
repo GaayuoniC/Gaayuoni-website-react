@@ -13,9 +13,6 @@ export function CvPdf() {
   };
   const buttonStyle = {
     backgroundColor: "rgba(245, 245, 245, 1)",
-    fontSize: 18,
-
-    cursor: "pointer",
   };
 
   return (
@@ -128,6 +125,7 @@ export function CvPdf() {
           ))}
         </ul>
       </article>
+
       <div className="container-language-driver-hobby">
         <article>
           <h3>Sprachen</h3>
