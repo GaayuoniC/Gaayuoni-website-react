@@ -18,11 +18,19 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
   .myLife-container {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     flex-direction: column;
     text-align: justify;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Screen responsiveness in web browser */
+  .myLife-container {
+    display: flex;
+    flex-direction: column;
   }
 }
