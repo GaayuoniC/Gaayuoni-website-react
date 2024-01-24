@@ -35,6 +35,7 @@ export function CvPdf() {
         <div className="container-item-body-1">
           <figure>
             <img
+              id="cv-foto"
               src={"cvFoto.jpeg"}
               alt="A picture of a man on his resume page"
             />
