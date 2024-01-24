@@ -13,6 +13,12 @@
 .container-item-body-1 {
   flex: 1;
 }
+.container-item-body-1 > p {
+  text-align: justify;
+}
+#cv-foto {
+  width: 430px;
+}
 
 .container-contact-details {
   display: flex;
@@ -80,6 +86,14 @@
   border: 1px solid rgb(28, 25, 25);
 } */
 
+/* Web responsiveness zone */
+@media (max-width: 768) {
+  /* TO DO! Rework on this!!!! */
+  .container-item-body > img {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .container-stack {
     flex-direction: column;
@@ -92,7 +106,7 @@
     gap: 8px;
     width: 90%;
   }
-  img {
+  #cv-foto {
     display: none;
   }
   .container-item-body-1 > p {
