@@ -54,7 +54,7 @@
     align-items: center;
     position: relative;
     /* background: linear-gradient(to bottom left, #fd9be5, rgb(159, 152, 152)); */
-    background: -moz-linear-gradient(to left, #fd9be5, rgb(159, 152, 152));
+    background: linear-gradient(to left, #fd9be5, rgb(159, 152, 152));
     border-radius: 0;
   }
   .header-nav-container {

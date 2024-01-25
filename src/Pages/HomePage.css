@@ -22,9 +22,6 @@
 }
 
 @media screen and (max-width: 412px) {
-  img {
-    display: none;
-  }
   article {
     width: 100%;
     padding: 0;

@@ -13,11 +13,13 @@
 .container-item-body-1 {
   flex: 1;
 }
+.container-item-body-1 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 .container-item-body-1 > p {
   text-align: justify;
-}
-#cv-foto {
-  width: 430px;
 }
 
 .container-contact-details {
@@ -78,23 +80,15 @@
   text-align: left;
 }
 
-/* .container-language-driver-hobby {
-  display: flex;
-} */
-/* .container-language-driver-hobby > article {
-  background-color: rgba(247, 244, 244, 0.75);
-  border: 1px solid rgb(28, 25, 25);
-} */
-
 /* Web responsiveness zone */
-@media (max-width: 768) {
+@media (max-width: 900px) {
   /* TO DO! Rework on this!!!! */
-  .container-item-body > img {
-    display: none;
+  .container-item-body {
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 412px) {
   .container-stack {
     flex-direction: column;
     align-items: flex-start;
@@ -106,13 +100,11 @@
     gap: 8px;
     width: 90%;
   }
-  #cv-foto {
-    display: none;
+
+  .container-item-body {
+    flex-direction: column;
   }
   .container-item-body-1 > p {
     text-align: justify;
-  }
-  body {
-    background-color: rgba(200, 215, 215, 1);
   }
 }

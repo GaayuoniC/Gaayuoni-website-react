@@ -35,19 +35,24 @@
   /* color: white; */
 }
 
-@media screen and (max-width: 412px) {
+/* Screen responsiveness section */
+@media (max-width: 900px) {
   .myLife-container {
     display: flex;
-    /* flex: 1; */
     flex-direction: column;
-    text-align: justify;
   }
 }
 
-@media (max-width: 900px) {
-  /* Screen responsiveness in web browser */
+/* Responsiveness to diffent screen sizes */
+@media screen and (max-width: 412px) {
   .myLife-container {
     display: flex;
     flex-direction: column;
+    text-align: justify;
+  }
+  .text-overlay {
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
   }
 }
