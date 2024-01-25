@@ -25,6 +25,7 @@ export function HomePage() {
           So here I am, starting a carrier change and venturing into the world
           of software development in Germany.
         </p>
+        <br />
         <p>
           This is just the beginning of the development of my own website which
           I started developing right from the first day that I started my
