@@ -64,20 +64,22 @@ export function CvPdf() {
           </Link>
         </div>
       </article>
-      <article className="skills-container">
+      <article>
         <h3>Fähigkeiten</h3>
-        <p>HTML5</p>
-        <p>CSS3</p>
-        <p>Javascript</p>
-        <p>React.js</p>
-        <p>React Expo Native</p>
-        <p>UI/UX Design</p>
-        <p>SCM - Git & Github</p>
-        <p>Web -und -App Entwicklung</p>
+        <div className="skills-container">
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>Javascript</p>
+          <p>React.js</p>
+          <p>React Expo Native</p>
+          <p>UI/UX Design</p>
+          <p>SCM - Git & Github</p>
+          <p>Web -und -App Entwicklung</p>
+        </div>
       </article>
       <article>
-        <h3>IT relevante Berufserfahrung </h3>
         <ul className="it-education-container">
+          <h3>IT relevante Berufserfahrung </h3>
           {itRelevantData.map((study) => (
             <li key={study.id} className="it-education-item">
               {study.period} <br />
@@ -106,25 +108,31 @@ export function CvPdf() {
         </ul>
       </article>
 
-      <div className="container-language-driver-hobby">
-        <article>
-          <h3>Sprachen</h3>
+      <article>
+        <h3>Sprachen</h3>
+        <div className="container-language-driver-hobby">
           <p>Englisch: Muttersprache</p>
+
           <p>Deutsch: Verhandlungssicher</p>
-        </article>
-        <article>
-          <h3>Führerschein</h3>
+        </div>
+      </article>
+
+      <article>
+        <h3>Führerschein</h3>
+        <div className="container-language-driver-hobby">
           <p>A, B</p>
-        </article>
-        <article>
-          <h3>Hobbies</h3>
+        </div>
+      </article>
+      <article>
+        <h3>Hobbies</h3>
+        <div className="container-language-driver-hobby">
           <p>
             Ich liebe Musik. Wenn ich Guitare spiele, dann bin ich immer
             glücklich und zufrieden. Fußball finde ich auch cool, weil es darum
             geht, wie ein Team zusammen seinen Ziel erreicht.
           </p>
-        </article>
-      </div>
+        </div>
+      </article>
     </div>
   );
 }

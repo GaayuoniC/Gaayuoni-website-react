@@ -55,8 +55,6 @@
 .education-container,
 .it-education-container,
 .container-language-driver-hobby {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
   margin: 10px;
@@ -73,7 +71,7 @@
   text-align: left;
 }
 
-.container-language-driver-hobby > article {
+.container-language-driver-hobby {
   flex: 1;
   flex-direction: row;
   border: var(--border);
