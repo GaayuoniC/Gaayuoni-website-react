@@ -9,7 +9,9 @@
   margin-top: 20px;
 }
 
-.myLife-item {
+.myLife-item-1,
+.myLife-item-2,
+.myLife-item-3 {
   flex: 1;
   border: var(--border);
   border-top-right-radius: 50px;
@@ -20,7 +22,7 @@
 }
 .image-container {
   position: relative;
-  display: inline-block; /*Ensures that the container wraps around
+  object-fit: cover; /*Ensures that the container wraps around
   the image and text*/
 }
 #ghana-beach {
@@ -30,6 +32,7 @@
   width: 100%;
   height: auto;
   border-bottom-left-radius: 40px;
+  object-fit: cover;
 }
 .image-text {
   position: absolute;

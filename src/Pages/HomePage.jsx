@@ -37,7 +37,6 @@ export function HomePage() {
           </strong>
           in Bonn, Germany.
         </p>
-        <p>WIP</p>
       </div>
     </div>
   );

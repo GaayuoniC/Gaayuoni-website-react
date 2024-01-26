@@ -5,7 +5,7 @@ export function AboutMe() {
     <>
       <h1>Who am I?</h1>
       <div className="myLife-container">
-        <div className="myLife-item">
+        <div className="myLife-item-1">
           <h3>Early childhood</h3>
           <section>
             <p>
@@ -18,7 +18,7 @@ export function AboutMe() {
             <p></p>
           </section>
         </div>
-        <div className="myLife-item">
+        <div className="myLife-item-2">
           <h3>Teen years</h3>
           <p>
             I attended Tamale Secondary School from 1989 to 1994 and obtained my
@@ -29,7 +29,7 @@ export function AboutMe() {
             studies in Geography, Economics and Government, I passed my Advanced
             Level certification, the equivalent of level 100 in the United
             Kingdom i.e. first year of university education.
-          </p>{" "}
+          </p>
           <br />
           <p>
             After completing my Advanced Level education, it was mandatory for
@@ -47,7 +47,7 @@ export function AboutMe() {
             and still is Radio Savanna FM and my radio name was Kriss Gee.
           </p>
         </div>
-        <div className="myLife-item">
+        <div className="myLife-item-3">
           <h3>Adulthood</h3>
           <p>
             From 1998 to 2003 I studied land economy at University of Science
