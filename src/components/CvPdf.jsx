@@ -11,9 +11,6 @@ export function CvPdf() {
   const iconStyle = {
     color: "blue",
   };
-  const buttonStyle = {
-    backgroundColor: "rgba(245, 245, 245, 1)",
-  };
 
   return (
     <div className="cv-container">
@@ -67,34 +64,16 @@ export function CvPdf() {
           </Link>
         </div>
       </article>
-      <article>
+      <article className="skills-container">
         <h3>Fähigkeiten</h3>
-        <Stack spacing={2} direction="row" className="container-stack">
-          <Button variant="outlined" style={buttonStyle}>
-            HTML5
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            CSS3
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            Javascript
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            React.js
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            React Native
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            SCM - Git & Github
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            Responsive design
-          </Button>
-          <Button variant="outlined" style={buttonStyle}>
-            Web - und App - Entwicklung
-          </Button>
-        </Stack>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>Javascript</p>
+        <p>React.js</p>
+        <p>React Expo Native</p>
+        <p>UI/UX Design</p>
+        <p>SCM - Git & Github</p>
+        <p>Web -und -App Entwicklung</p>
       </article>
       <article>
         <h3>IT relevante Berufserfahrung </h3>

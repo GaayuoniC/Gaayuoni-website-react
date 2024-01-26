@@ -9,7 +9,7 @@ export function Contact() {
         gayuoni@proton.me
       </p>
       <p>
-        <span className="contact-container-item"> Telephone:</span> 0049 (0)
+        <span className="contact-container-item"> Telephone:</span> +49 (0)
         15219 313 987
       </p>
       <p>

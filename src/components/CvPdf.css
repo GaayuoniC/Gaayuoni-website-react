@@ -51,6 +51,7 @@
   flex-grow: 1;
   gap: 2px;
 }
+
 .education-container,
 .it-education-container,
 .container-language-driver-hobby {
@@ -60,6 +61,7 @@
   gap: 10px;
   margin: 10px;
 }
+.skills-container,
 .education-item,
 .it-education-item {
   flex: 1;

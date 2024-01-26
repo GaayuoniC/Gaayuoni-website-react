@@ -18,7 +18,11 @@
   padding: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
-
+.image-container {
+  position: relative;
+  display: inline-block; /*Ensures that the container wraps around
+  the image and text*/
+}
 #ghana-beach {
   /* Good practice to use these props
   in order to position images within a container 
@@ -26,13 +30,15 @@
   width: 100%;
   height: auto;
   border-bottom-left-radius: 40px;
-  display: block;
 }
-.text-overlay {
+.image-text {
   position: absolute;
-  bottom: 3%;
-  right: 2%;
-  /* color: white; */
+  bottom: 1%;
+  right: -20%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /*centres the text horizontally and vertically*/
 }
 
 /* Screen responsiveness section */

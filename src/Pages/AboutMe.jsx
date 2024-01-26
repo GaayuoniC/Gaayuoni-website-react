@@ -72,13 +72,15 @@ export function AboutMe() {
             to pursue futher studies at the University of Hamburg,Germany.
           </p>
           <br />
-          <img
-            src="ghana-beach.jpg"
-            id="ghana-beach"
-            alt="a man and his daughter on kokrobite beach in ghana"
-          />
-          <div className="text-overlay">
-            <p>Kokrobite Beach, Ghana</p>
+          <div className="image-container">
+            <img
+              src="ghana-beach.jpg"
+              id="ghana-beach"
+              alt="a man and his daughter on kokrobite beach in ghana"
+            />
+            <div className="image-text">
+              <p>Kokrobite Beach, Ghana</p>
+            </div>
           </div>
         </div>
       </div>
