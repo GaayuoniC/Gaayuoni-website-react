@@ -5,6 +5,9 @@ export function Contact() {
     <div className="contact-container">
       <h1> My Contact </h1>
       <p>
+        <span id="contact-me">Feel free to get in touch! </span>{" "}
+      </p>
+      <p>
         <span className="contact-container-item"> Email: </span>
         gayuoni@proton.me
       </p>

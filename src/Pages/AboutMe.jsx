@@ -15,7 +15,27 @@ export function AboutMe() {
               nurse. I started my basic education in Tamale, the Northern
               regional capital in the north of Ghana.
             </p>
-            <p></p>
+            <br />
+            <p>
+              In the early 80's I emigrated to Nigeria with my parents. We lived
+              in Ondo State and my sister and I quickly learned to speak Yoruba,
+              the main language of the state.
+            </p>
+            <br />
+            <p>
+              Unfortunately, my parents future plans of working in Nigeria and
+              then going on to the United Kingdom did not materialise because my
+              mother passed away and so we had to return to Ghana with my father
+              and start life all over agian. This was in 1984.
+            </p>
+            <br />
+            <p>
+              My sister and I stayed for a while with our grandmother in Nandom
+              in the Upper West Region. When father was settled, we move to him
+              in Tamale and continued our schooling till I went off to boarding
+              school in 1989. Though the country was under military rule at the
+              time, life was good and fun.
+            </p>
           </section>
         </div>
         <div className="myLife-item-2">

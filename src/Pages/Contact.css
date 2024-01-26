@@ -12,6 +12,9 @@
 .contact-container-item {
   font-weight: bold;
 }
+#contact-me {
+  font-style: italic;
+}
 
 @media screen and (max-width: 412px) {
   .contact-container {
