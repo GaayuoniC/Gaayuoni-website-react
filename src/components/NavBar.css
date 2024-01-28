@@ -3,8 +3,10 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  background-image: linear-gradient(to right, #c6a5be, #883e76);
+  /* background-image: linear-gradient(to right, #c6a5be, #883e76); */
   /* use background-image for gradient instead of a backgrond color */
+  background-image: url("/moleNationalPark.jpg");
+  background-position: center;
 
   padding-left: 10px;
   padding-right: 10px;
