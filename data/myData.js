@@ -4,7 +4,7 @@ export const myStudiesData = [
     period: "2013 - 2014",
     title: "Masters",
     institution: "Universität Hamburg",
-    field: "Friedensforschung,Sicherheitpolitik",
+    field: "Friedensforschung, Sicherheitpolitik",
     location: "Hambuburg, Deutschland",
   },
   {
