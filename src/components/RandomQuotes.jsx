@@ -17,12 +17,12 @@ export function RandomQuotes() {
         setIsLoading(true);
         const url = "https://type.fit/api/quotes"; //free quotes api
         const { data } = await axios.get(url);
-        console.log(data); //debugging point for checking incoming data
+        // console.log(data); //debugging point for checking incoming data
         setData(data);
         //Random quote selection:
         const randomIndex = Math.floor(Math.random() * data.length);
         const randomQuote = data[randomIndex].text;
-        const randomAuthor = data[randomIndex].name;
+        const randomAuthor = data[randomIndex].author;
         setQuote(randomQuote);
         setAuthor(randomAuthor);
       } catch (error) {
@@ -33,11 +33,26 @@ export function RandomQuotes() {
       }
     }
     getData(); //call the function to immediately fetch the data needed
+
+    //setting the interval time for changing the quotes
+    const intervalId = setInterval(() => {
+      getData();
+    }, 3600000); // 3600 00ms = 1 hour
+    return () => {
+      clearInterval(intervalId); //cleanup after each interval
+    };
   }, []);
 
   return (
-    <>
-      <p>randoms</p>
-    </>
+    <div className="quotes-container">
+      <p id="quote-of-day">Quote of the day!</p>
+      {isLoading ? (
+        <p>Loading quote</p>
+      ) : (
+        <span className="main-quote">
+          <p> "{quote}" </p> <p>- {author} </p>
+        </span>
+      )}
+    </div>
   );
 }
