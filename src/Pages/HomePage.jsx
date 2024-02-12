@@ -20,11 +20,11 @@ export function HomePage() {
             <span>Akwaaba! </span>
           </h1>
           <p>
-            Welcome! My name is Christian and am originally from Ghana. Having
+            Welcome! My name is Christian and I am originally from Ghana. Having
             spent the first half of my life pursuing two of my dreams in life, I
             have now gotten to the point where I finally get the opportunity to
             achieve my last dream, that is finally venturing into the world of
-            IT. So here I am, starting a carrier change and venturing into the
+            IT. So here I am, starting a career change and venturing into the
             world of software development in Germany.
           </p>
           <br />
@@ -35,7 +35,7 @@ export function HomePage() {
             <strong> Frontend Web and App </strong> developement Bootcamp with{" "}
             <strong>
               <a href="https://talents.taktsoft.com/" target="_blank">
-                Taktsoft Campust Talents {""}
+                Taktsoft Campus Talents
               </a>
             </strong>
             in Bonn, Germany.

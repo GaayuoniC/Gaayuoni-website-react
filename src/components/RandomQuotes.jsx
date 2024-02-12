@@ -37,7 +37,7 @@ export function RandomQuotes() {
     //setting the interval time for changing the quotes
     const intervalId = setInterval(() => {
       getData();
-    }, 3600000); // 3600 00ms = 1 hour
+    }, 30000); // 30 000ms = 30 seconds
     return () => {
       clearInterval(intervalId); //cleanup after each interval
     };
