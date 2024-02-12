@@ -35,9 +35,10 @@ export function HomePage() {
             <strong> Frontend Web and App </strong> developement Bootcamp with{" "}
             <strong>
               <a href="https://talents.taktsoft.com/" target="_blank">
-                Taktsoft Campus Talents
+                Taktsoft Campus Talents{" "}
               </a>
             </strong>
+            {""}
             in Bonn, Germany.
           </p>
         </div>
