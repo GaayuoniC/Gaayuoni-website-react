@@ -34,7 +34,7 @@ export function HomePage() {
             <a href="https://talents.taktsoft.com/" target="_blank">
               Taktsoft Campust Talents {""}
             </a>
-          </strong>
+          </strong>{" "}
           in Bonn, Germany.
         </p>
       </div>
