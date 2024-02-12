@@ -21,6 +21,10 @@
   object-fit: contain;
 }
 
+.quotes-container {
+  padding: 20px;
+}
+
 @media screen and (max-width: 412px) {
   article {
     width: 100%;
