@@ -78,7 +78,7 @@ so as to hinder flaky movement when hovering*/
   }
 }
 /* General responsiveness for browser!! */
-@media (max-width: 900px) {
+@media (max-width: 915px) {
   /* Screen responsiveness in web browser */
   .header-nav-container {
     flex-direction: column;

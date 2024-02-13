@@ -41,3 +41,10 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 428px) {
+  .contact-container {
+    border-radius: 0;
+    flex-direction: column;
+  }
+}

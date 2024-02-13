@@ -20,7 +20,12 @@
   font-size: 32px;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
+  .main-quote {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 428px) {
   .main-quote {
     flex-direction: column;
   }

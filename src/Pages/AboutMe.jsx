@@ -94,13 +94,10 @@ export function AboutMe() {
           <br />
           <div className="image-container">
             <img
-              src="ghana-beach.jpg"
+              src="ghana-beach1.jpg"
               id="ghana-beach"
-              alt="a man and his daughter on kokrobite beach in ghana"
+              alt="a man and his daughter on a beach in ghana"
             />
-            <div className="image-text">
-              <p>Kokrobite Beach, Ghana</p>
-            </div>
           </div>
         </div>
       </div>

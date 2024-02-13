@@ -35,10 +35,10 @@
   border-bottom-left-radius: 40px;
   object-fit: cover;
 }
-.image-text {
+#image-text {
   position: absolute;
-  bottom: 1%;
-  right: -20%;
+  top: 150px;
+  left: 150px;
   transform: translate(
     -50%,
     -50%
