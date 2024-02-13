@@ -59,6 +59,7 @@ so as to hinder flaky movement when hovering*/
     font-size: 1.5rem;
     color: white;
     align-self: flex-start;
+    line-height: 1;
   }
 
   .header-container {

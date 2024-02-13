@@ -19,3 +19,9 @@
 .main-quote > p:first-child {
   font-size: 32px;
 }
+
+@media screen and (max-width: 412px) {
+  .main-quote {
+    flex-direction: column;
+  }
+}

@@ -5,3 +5,10 @@
 .digital-container > p {
   font-size: 18px;
 }
+
+@media screen and (max-width: 412px) {
+  .digital-container {
+    padding: 0;
+    display: none;
+  }
+}
