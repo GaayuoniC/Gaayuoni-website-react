@@ -112,8 +112,8 @@ export function CvPdf() {
         <h3>Sprachen</h3>
         <div className="container-language-driver-hobby">
           <p>Englisch: Muttersprache</p>
-
           <p>Deutsch: Verhandlungssicher</p>
+          <p>Russisch: Grundkenntnisse</p>
         </div>
       </article>
 

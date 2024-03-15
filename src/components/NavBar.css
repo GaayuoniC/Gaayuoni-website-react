@@ -49,7 +49,7 @@ so as to hinder flaky movement when hovering*/
   border: 1px solid white;
   border-radius: 18px;
 }
-.header-nav-container li a.active {
+.header-nav-container li a:active {
   color: white;
   padding: 5px;
 }
