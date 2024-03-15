@@ -19,6 +19,9 @@
   max-height: 100%;
   object-fit: contain;
 }
+#cv-foto {
+  border-radius: var(--border-radius);
+}
 .container-item-body-1 > p {
   text-align: justify;
 }

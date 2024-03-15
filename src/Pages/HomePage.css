@@ -20,6 +20,9 @@
   max-height: 100%;
   object-fit: contain;
 }
+#intro-image {
+  border-radius: var(--border-radius);
+}
 
 .quotes-container {
   padding: 20px;

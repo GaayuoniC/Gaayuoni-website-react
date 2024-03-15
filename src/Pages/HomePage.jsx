@@ -9,6 +9,7 @@ export function HomePage() {
           <img
             src={"BEWERBUNGFOTO.jpg"}
             alt="A picture of a man called Christian"
+            id="intro-image"
           />
         </div>
         <div className="home-page-contianer-item-1">
@@ -32,13 +33,16 @@ export function HomePage() {
             This is just the beginning of the development of my own website
             which I started developing right from the first day that I started
             my
-            <strong> Frontend Web and App </strong> developement Bootcamp with{" "}
+            <strong> Frontend Web and App </strong> developement Bootcamp with
             <strong>
-              <a href="https://talents.taktsoft.com/" target="_blank">
-                Taktsoft Campus Talents{" "}
+              <a
+                href="https://talents.taktsoft.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Taktsoft Campus Talents
               </a>
             </strong>
-            {""}
             in Bonn, Germany.
           </p>
         </div>
