@@ -42,7 +42,7 @@ export function HomePage() {
               >
                 Taktsoft Campus Talents
               </a>
-            </strong>
+            </strong>{" "}
             in Bonn, Germany.
           </p>
         </div>
