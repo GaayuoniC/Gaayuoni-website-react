@@ -17,7 +17,7 @@ export function RandomQuotes() {
         setIsLoading(true);
         const url = "https://type.fit/api/quotes"; //free quotes api
         const { data } = await axios.get(url);
-        // console.log(data); //debugging point for checking incoming data
+        //console.log(data); //debugging point for checking incoming data
         setData(data);
         //Random quote selection:
         const randomIndex = Math.floor(Math.random() * data.length);
@@ -50,7 +50,8 @@ export function RandomQuotes() {
         <p>Loading quote</p>
       ) : (
         <span className="main-quote">
-          <p> "{quote}" </p> <p>- {author} </p>
+          <p>`{quote} ` </p> <p>- {author.slice(0, -9)} </p>
+          {/* Used the slice method to remove the unwanted text at the end */}
         </span>
       )}
     </div>
