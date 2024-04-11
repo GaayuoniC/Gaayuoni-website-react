@@ -10,7 +10,7 @@ export function HomePage() {
             src={"BEWERBUNGFOTO.jpg"}
             alt="A picture of a man called Christian"
             id="intro-image"
-          />cd
+          />
         </div>
         <div className="home-page-contianer-item-1">
           <h1 className="continuous-slide">
