@@ -87,9 +87,9 @@ export function AboutMe() {
             Moved to England after my studies and worked for a few months before
             finally joining the Bristish Army in the Corps of Royal Engineers as
             a survey engineer. After my training I was posted to Osnabrück in
-            Germany.Prior to going on an operational tour in Afghanistan in
-            2009, I had training tours in Canada and Cyprus. In 2012 I left the
-            to pursue futher studies at the University of Hamburg,Germany.
+            Germany. Prior to going on an operational tour in Afghanistan in
+            2009, I had training tours in Canada and Cyprus. In 2012 I left the army
+            to pursue futher studies at the University of Hamburg, Germany.
           </p>
           <br />
           <div className="image-container">
