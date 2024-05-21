@@ -7,7 +7,7 @@ export function HomePage() {
       <div className="home-page-contianer">
         <div className="home-page-contianer-item-1">
           <img
-            src={"BEWERBUNGFOTO.jpg"}
+            src={"cvFoto.jpeg"}
             alt="A picture of a man called Christian"
             id="intro-image"
           />

@@ -50,7 +50,7 @@ export function RandomQuotes() {
         <p>Loading quote</p>
       ) : (
         <span className="main-quote">
-          <p>`{quote} ` </p> <p>- {author.slice(0, -9)} </p>
+          <p>`{quote}` </p> <p> {""} - {author.slice(0, -9)} </p>
           {/* Used the slice method to remove the unwanted text at the end */}
         </span>
       )}
