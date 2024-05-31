@@ -1,14 +1,16 @@
 footer {
   background-color: var(--headerFooterBackground-color);
-  border-radius: var(--border-radius);
-  border: var(--border-line);
-  display: flex;
+  /* border-radius: var(--border-radius); */
+  /* border: var(--border-line); */
+  
 }
 .footer-li {
   display: flex;
-
+  align-items: center;
+  justify-content: space-between;
   list-style-type: none;
-  gap: 40px;
+  /* gap: 40px; */
+  padding: 0 20px;
 }
 a {
   text-decoration: none;

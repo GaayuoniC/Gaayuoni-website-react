@@ -3,13 +3,13 @@
   flex-direction: row;
   position: relative;
   justify-content: space-between;
-}
+}*/
 main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-}
+}/*
 .nav-container-1 {
   flex: 1;
 } */
