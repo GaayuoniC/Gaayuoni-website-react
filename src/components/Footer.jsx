@@ -5,10 +5,10 @@ export function Footer() {
     <footer>
       <ol className="footer-li">
         <li> Christian Gaayuoni  &#169;All rights reserved</li>
-        <Link to="https://www.linkedin.com/in/christian-gaayuoni-5950b132/" target="#" rel="no referral">
+        <Link  to="https://www.linkedin.com/in/christian-gaayuoni-5950b132/" target="#" rel="no referral" id="my-profile-link">
           <li> Linkedin</li>
         </Link>
-        <Link to="https://github.com/GaayuoniC" target="#" rel="no referral">
+        <Link to="https://github.com/GaayuoniC" target="#" rel="no referral" id="my-profile-link">
         <li>Github</li>
         
         </Link>

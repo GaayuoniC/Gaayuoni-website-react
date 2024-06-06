@@ -6,7 +6,7 @@ export function NavBar() {
     <header className="header-container">
       <div className="logo-area">
         <p className="logo">Christian Gaayuoni</p>
-        <DigitalClock />
+        <DigitalClock  />
       </div>
 
       <nav className="header-nav-container">

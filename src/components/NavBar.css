@@ -91,3 +91,20 @@ so as to hinder flaky movement when hovering*/
     font-size: 2rem;
   }
 }
+
+
+@media screen and (max-width: 768px){
+  .logo-area{
+    
+      display: flex;
+      flex-direction: column;
+      gap: 20px; 
+     
+  }
+  .logo {
+    padding: 0;
+    color: black;
+    font-size: 1.5rem;
+  }
+
+}
