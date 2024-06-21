@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer>
       <ol className="footer-li">
-        <li> Christian Gaayuoni  &#169;All rights reserved</li>
+        <li id="copyright"> Christian Gaayuoni  &#169;All rights reserved</li>
         <Link  to="https://www.linkedin.com/in/christian-gaayuoni-5950b132/" target="#" rel="no referral" id="my-profile-link">
           <li> Linkedin</li>
         </Link>

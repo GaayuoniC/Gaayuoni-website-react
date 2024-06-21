@@ -24,7 +24,9 @@ a {
 @media screen and (max-width: 768px){
   .footer-li{
     
-      flex-direction: column;          
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;       
      
   }
 
@@ -33,4 +35,11 @@ a {
     display: none;         
    
 }
+}
+@media screen and (max-width:475px){
+  #copyright{
+    text-align: center;
+    width:100%
+  }
+
 }
