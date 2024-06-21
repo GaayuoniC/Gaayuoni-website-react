@@ -42,12 +42,12 @@
 so as to hinder flaky movement when hovering*/
 .header-nav-container li:hover {
   opacity: 0.7;
-  color: white;
+  /* color: white; */
   border: 1px solid white;
   border-radius: 18px;
 }
 .header-nav-container li a:active {
-  color: white;
+  /* color: white; */
   padding: 5px;
 }
 .desk-container{
@@ -74,7 +74,7 @@ so as to hinder flaky movement when hovering*/
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: #fd9be5;
+  
     border-radius: 0;
   }
   .header-nav-container {
@@ -122,6 +122,13 @@ so as to hinder flaky movement when hovering*/
   }
   .mobile-menu{
     display: contents;
+  }
+  /* check */
+  .header-nav-container li:hover {
+    opacity: 0.7;
+   
+    border: 1px solid black;
+    border-radius: 18px;
   }
  
 
