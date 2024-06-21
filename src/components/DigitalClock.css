@@ -15,7 +15,7 @@
 @media screen and (max-width: 428px) {
   .digital-container {
     padding: 0;
-    display: none;
+    
   }
 }
 @media screen and (max-width: 667px) {
@@ -25,6 +25,8 @@
 }
 @media screen and (max-width: 915px) {
   .digital-container {
-    padding: 0;
+    padding: 10px;
+    display: none;
+    
   }
 }

@@ -19,10 +19,7 @@
   color: #000000;
   padding-left: 30px;
 }
-.digital-clock {
-  font-size: 1.5rem;
-  padding-left: 30px;
-}
+
 .header-nav-container {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +49,16 @@ so as to hinder flaky movement when hovering*/
 .header-nav-container li a:active {
   color: white;
   padding: 5px;
+}
+.desk-container{
+  display: flex;
+  
+}
+.desk-menu{
+  display: flex;
+}
+.mobile-menu{
+  display: none;
 }
 
 @media screen and (max-width: 414px) {
@@ -106,5 +113,16 @@ so as to hinder flaky movement when hovering*/
     color: black;
     font-size: 1.5rem;
   }
+  .desk-menu{
+    display: none;
+  }
+  .menu-img{
+    display: contents;
+    cursor: pointer;
+  }
+  .mobile-menu{
+    display: contents;
+  }
+ 
 
 }
