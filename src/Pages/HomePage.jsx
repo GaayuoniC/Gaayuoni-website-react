@@ -1,5 +1,5 @@
 import "./HomePage.css";
-import { RandomQuotes } from "../components/RandomQuotes";
+//import { RandomQuotes } from "../components/RandomQuotes";
 
 export function HomePage() {
   return (
@@ -21,20 +21,20 @@ export function HomePage() {
             <span>Akwaaba! </span>
           </h1>
           <p>
-            Welcome! My name is Christian and I am originally from Ghana. Having
-            spent the first half of my life pursuing two of my dreams in life, I
-            have now gotten to the point where I finally get the opportunity to
-            achieve my last dream, that is finally venturing into the world of
-            IT. So here I am, starting a career change and venturing into the
-            world of software development in Germany.
+            Welcome! My name is Christian, and I am originally from Ghana. After
+            dedicating the first half of my life to pursuing two of my lifelong
+            dreams, I am now embarking on the journey to fulfill my final
+            aspiration: entering the field of IT. With this goal in mind, I am
+            excited to transition into a new career in software development,
+            beginning this chapter of my professional life in Germany.
           </p>
           <br />
           <p>
-            This is just the beginning of the development of my own website
-            which I started developing right from the first day that I started
-            my
-            <strong> Frontend Web and App </strong> developement Bootcamp with{" "}
-            <strong>
+            This marks the beginning of the development of my personal website,
+            which I began working on from the very first day of my{" "}
+            <em> Frontend Web and App </em> software Development Bootcamp at
+            <em>
+              {" "}
               <a
                 href="https://talents.taktsoft.com/"
                 target="_blank"
@@ -42,13 +42,10 @@ export function HomePage() {
               >
                 Taktsoft Campus Talents
               </a>
-            </strong>{" "}
+            </em>{" "}
             in Bonn, Germany.
           </p>
         </div>
-      </div>
-      <div className="quotes-container">
-        <RandomQuotes />
       </div>
     </>
   );
