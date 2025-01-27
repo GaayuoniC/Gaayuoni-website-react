@@ -2,7 +2,6 @@ footer {
   background-color: var(--headerFooterBackground-color);
   /* border-radius: var(--border-radius); */
   /* border: var(--border-line); */
-  
 }
 .footer-li {
   display: flex;
@@ -21,27 +20,24 @@ a {
 .content {
   flex: 1;
 }
+.contact-links {
+  color: gray;
+}
 
-
-@media screen and (max-width: 768px){
-  .footer-li{
-    
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;       
-     
+@media screen and (max-width: 768px) {
+  .footer-li {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  #my-profile-link{
-    
-    display: none;         
-   
+  #my-profile-link {
+    display: none;
+  }
 }
-}
-@media screen and (max-width:475px){
-  #copyright{
+@media screen and (max-width: 475px) {
+  #copyright {
     text-align: center;
-    width:100%
+    width: 100%;
   }
-
 }

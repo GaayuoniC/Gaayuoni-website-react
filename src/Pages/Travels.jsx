@@ -3,7 +3,7 @@ import { useState } from "react";
 import { css } from "@emotion/react";
 import ClipLoader from "react-spinners/ClipLoader";
 
-export function Cv() {
+export function Travels() {
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
 

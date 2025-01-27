@@ -12,10 +12,7 @@ export function Contact() {
           <span className="contact-container-item"> Email: </span>
           gayuoni@proton.me
         </p>
-        <p>
-          <span className="contact-container-item"> Telephone:</span> +49 (0)
-          15219 313 987
-        </p>
+
         <p>
           <span className="contact-container-item"> Github: </span>
           <a href="https://github.com/GaayuoniC" target="_blank">

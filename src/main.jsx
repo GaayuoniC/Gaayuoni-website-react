@@ -5,7 +5,7 @@ import "./index.css";
 import { RootLayout } from "../src/Pages/RootLayout";
 import { HomePage } from "../src/Pages/HomePage";
 import { AboutMe } from "./Pages/AboutMe";
-import { Cv } from "./Pages/Cv";
+import { Travels } from "./Pages/Travels";
 import { Contact } from "./Pages/Contact";
 
 const router = createBrowserRouter([
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HomePage /> },
       { path: "aboutme", element: <AboutMe /> },
-      { path: "cv", element: <Cv /> },
+      { path: "travels", element: <Travels /> },
       { path: "contact", element: <Contact /> },
       { path: "homepage", element: <HomePage /> },
     ],
