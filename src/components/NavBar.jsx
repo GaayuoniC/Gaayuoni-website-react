@@ -23,7 +23,7 @@ export function NavBar() {
             <NavLink to="/aboutme">
               <li> My life</li>
             </NavLink>
-            <NavLink to="/cv">
+            <NavLink to="/travels">
               <li> Travels</li>
             </NavLink>
             <NavLink to="/contact">
@@ -50,8 +50,8 @@ export function NavBar() {
             <NavLink to="/aboutme">
               <li> My life</li>
             </NavLink>
-            <NavLink to="/cv">
-              <li> CV</li>
+            <NavLink to="/travels">
+              <li> Travels</li>
             </NavLink>
             <NavLink to="/contact">
               <li> Contact</li>
