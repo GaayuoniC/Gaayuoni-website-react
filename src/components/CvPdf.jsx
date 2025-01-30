@@ -17,7 +17,7 @@ export function CvPdf() {
       <div className="container-item-top"></div>
 
       <article className="container-item-body">
-        <div className="container-item-body-1">
+        {/* <div className="container-item-body-1">
           <h2>Kurz Profil</h2>
           <p>
             Ich bin ein Mensch, der gerne neuer Sachen lernt. Als neuer Frontend
@@ -28,13 +28,14 @@ export function CvPdf() {
             erfahrenen Entwicklern, die als Mentoren fungieren können, besonders
             in einen agilen und dynamischen Arbeitsumfeld.
           </p>
-        </div>
+        </div> */}
         <div className="container-item-body-1">
           <figure>
             <img
               id="cv-foto"
               src={"cvFoto.jpeg"}
               alt="A picture of a man on his resume page"
+              width={300}
             />
           </figure>
         </div>

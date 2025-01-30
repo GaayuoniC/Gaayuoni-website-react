@@ -88,13 +88,13 @@ export function AboutMe() {
             finally joining the Bristish Army in the Corps of Royal Engineers as
             a survey engineer. After my training I was posted to Osnabrück in
             Germany. Prior to going on an operational tour in Afghanistan in
-            2009, I had training tours in Canada and Cyprus. In 2012 I left the army
-            to pursue futher studies at the University of Hamburg, Germany.
+            2009, I had training tours in Canada and Cyprus. In 2012 I left the
+            army to pursue futher studies at the University of Hamburg, Germany.
           </p>
           <br />
           <div className="image-container">
             <img
-              src="ghana-beach1.jpg"
+              src="/images/ghana-beach1.jpg"
               id="ghana-beach"
               alt="a man and his daughter on a beach in ghana"
             />

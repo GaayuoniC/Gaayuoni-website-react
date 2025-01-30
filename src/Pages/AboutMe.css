@@ -32,8 +32,9 @@
   very well and orderly */
   width: 100%;
   height: auto;
-  border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 35px;
   object-fit: cover;
+  padding-top: 10px;
 }
 #image-text {
   position: absolute;

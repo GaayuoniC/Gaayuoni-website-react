@@ -2,6 +2,7 @@ import { CvPdf } from "../components/CvPdf";
 import { useState } from "react";
 import { css } from "@emotion/react";
 import ClipLoader from "react-spinners/ClipLoader";
+import { Places } from "../components/Places";
 
 export function Travels() {
   const [isLoading, setIsLoading] = useState(false);
@@ -20,6 +21,7 @@ export function Travels() {
 
   return (
     <>
+      {/** 
       {isLoading ? (
         <div css={loadingContainerStyle}>
           <ClipLoader color={"#36d7b7"} loading={isLoading} />
@@ -32,7 +34,11 @@ export function Travels() {
           onLoadEnd={() => handleLoading(false)}
           onError={() => handleError}
         />
-      )}
+      )}*/}
+
+      <div>
+        <Places />
+      </div>
     </>
   );
 }

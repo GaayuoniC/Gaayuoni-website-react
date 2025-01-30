@@ -1,0 +1,39 @@
+.picture-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-items {
+  list-style: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.picture-title {
+  font-size: 0.9rem;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.responsive-image {
+  width: 450px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.responsive-image:hover {
+  /* Hover effect on  places images */
+  box-shadow:
+    rgba(2, 8, 20, 0.1) 0px 35em 1.175em,
+    rgba(2, 8, 20, 0.8) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
